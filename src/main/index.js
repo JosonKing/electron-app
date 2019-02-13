@@ -9,7 +9,7 @@ function createWindow () {
   // 创建菜单  
   // 引入菜单模块
   require('./menu.js')
-  
+  require('./tray.js')
   // Create the browser window.
   mainWindow = new BrowserWindow({
     width: 800,
