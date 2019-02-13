@@ -6,6 +6,10 @@ const {app, BrowserWindow} = require('electron')
 let mainWindow
 
 function createWindow () {
+  // 创建菜单  
+  // 引入菜单模块
+  require('./menu.js')
+  
   // Create the browser window.
   mainWindow = new BrowserWindow({
     width: 800,
